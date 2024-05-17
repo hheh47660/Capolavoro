@@ -1,0 +1,143 @@
+:root{
+    --topColor: pink;
+}
+body{
+    background-color: #FFE3D6;
+    background: linear-gradient(40deg, rgb(108, 0, 162), rgb(0, 17, 82));
+    width: 100vw;
+    margin-left: 0;
+    margin-top: 0;
+    min-width: 0px;
+    color: white;
+
+}
+
+.head{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 220px 1fr;
+    margin: 0;
+    background-color: var(--topColor);
+
+}
+
+.head div{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    height: 100%;
+    border-bottom: solid white 3px;
+}   
+.profile{
+    font-family: Georgia, serif;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: min(10vw, 50px);
+    height: min-content(auto, 300px);
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #F3954D;
+    background-color: var(--topColor);
+    margin-bottom: 0;
+}
+
+.profile h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.profile .speech{
+    color: white;
+    margin-top: 10px;
+    font-size: 2rem;
+    font-family: Georgia, serif;
+}
+.profile .foto{
+   height: 300px;
+   width: max(auto, 300px);
+   margin-top: auto;
+   margin-bottom: auto;
+   clip-path: circle(120px at 8rem 8.5rem);
+
+}
+
+.majorEntity{
+    top: -10px;
+    background-color: #FFE3D6;
+    background-color: transparent;
+
+}
+
+
+
+.majorEntity{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 70px;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 70px;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+video{
+    display: flex;
+    height: 300px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: ease-in-out transform .35s ;
+}
+
+video:hover{
+    transform: scale(150%);
+}
+
+.project .line{
+    grid-row: 2;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid white 1px;
+}
+
+.project .description{
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+}
+
+.project .title{
+    font-size: 2.5rem;
+    font-family: Georgia, serif;
+    font-weight: 700;
+}
+
+.project .discorso{
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: 4  00;
+    font-size: 1rem;
+    overflow:scroll;
+}
+
