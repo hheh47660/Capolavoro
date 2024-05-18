@@ -1,0 +1,19 @@
+@media only screen and (max-width: 800px) {
+    .profile{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile .foto{
+        height:300px;
+        width: 300px;
+        margin-top: auto;
+        margin-bottom: auto;
+        clip-path: circle(120px at 9rem 8.5rem);
+     
+    }
+    .content{
+        flex-direction: column-reverse;
+    }
+}
