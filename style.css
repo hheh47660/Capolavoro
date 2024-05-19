@@ -2,11 +2,9 @@
     --topColor: pink;
 }
 body{
-    background-color: #FFE3D6;
     background: linear-gradient(40deg, rgb(108, 0, 162), rgb(0, 17, 82));
-    width: 100vw;
-    margin-left: 0;
-    margin-top: 0;
+    width: 100%;
+    margin: 0;
     min-width: 0px;
     color: white;
 
@@ -30,7 +28,7 @@ body{
 .profile{
     font-family: Georgia, serif;
     margin-bottom: 30px;
-    padding-bottom: 20px;
+    margin-bottom: 0;
     display: flex;
     justify-content: center;
     column-gap: min(10vw, 50px);
@@ -38,9 +36,8 @@ body{
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #F3954D;
     background-color: var(--topColor);
-    margin-bottom: 0;
+
 }
 
 .profile h1{
@@ -65,17 +62,16 @@ body{
 
 .majorEntity{
     top: -10px;
-    background-color: #FFE3D6;
     background-color: transparent;
 
 }
-
-
 
 .majorEntity{
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    margin-right: 0;
 }
 
 .project{
@@ -119,7 +115,6 @@ video:hover{
 }
 
 .project .description{
-    grid-row: 1;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -136,8 +131,8 @@ video:hover{
     font-family: Georgia, serif;
     letter-spacing: 1px;
     line-height: 25px;
-    font-weight: 4  00;
+    font-weight: 400;
     font-size: 1rem;
-    overflow:scroll;
+    overflow: scroll;
 }
 

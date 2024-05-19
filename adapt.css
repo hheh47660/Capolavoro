@@ -1,4 +1,7 @@
 @media only screen and (max-width: 800px) {
+    body{
+        width: auto;
+    }
     .profile{
         flex-direction: column;
         height: auto;
@@ -6,14 +9,28 @@
         align-items: center;
     }
     .profile .foto{
-        height:300px;
+        height:auto;
         width: 300px;
         margin-top: auto;
         margin-bottom: auto;
-        clip-path: circle(120px at 9rem 8.5rem);
+        clip-path: circle(120px at 9rem 9.5rem);
      
     }
     .content{
         flex-direction: column-reverse;
+        width: 80vw;
     }
+    .project .description{
+
+    }
+    .project .discorso{
+        font-size: 5vw;
+        line-height: 35px;
+
+    }
+    video{
+        width: 60vw;
+        height: auto;
+    }
+    
 }
